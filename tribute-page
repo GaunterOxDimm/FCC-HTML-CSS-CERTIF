@@ -1,0 +1,49 @@
+
+<!-- STARTING MAIN ELEMENT -->
+<html id="main">
+  
+  <!-- START NAVBAR -->
+    <div id="navbar">
+      <p id="nav-text"><a href="#title" class="nav-link"><b>Home</a>&emsp;
+        <a href="#row-2" class="nav-link">Luc Montagnier</a>&emsp;
+        <a href="#more-about" class="nav-link">More</b></a></p>
+    </div>
+      <!-- NAVBAR -->
+  
+  <!-- START BODY -->
+  <div id="body">
+  
+  <!-- STARTING TITLE ELEMENT -->
+  <div id="title">
+    <p id="title-1"><strong>Professor Luc Montagnier</strong></p>
+  <p id="title-2">Researcher & Discoverer of the HIV virus</p>
+      
+    </div>
+  <!-- ENDING TITLE ELEMENT -->
+  
+  <!-- START IMAGE-DIV + TRIBUTE-INFO -->
+  <div id="row-2">
+  <div id="img-div">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Luc_Montagnier-press_conference_Dec_06th%2C_2008-6.jpg/440px-Luc_Montagnier-press_conference_Dec_06th%2C_2008-6.jpg" id="image" alt="Pr. Luc Montagnier in 2008">
+    <p id="img-caption"><b>Pr. Luc Montagnier in 2008</b></p>
+  </div>
+    <div id="tribute-info"><p id="tribute-font">The 2008 Nobel Prize in Physiology or Medicine was awarded to <b>Montagnier and Françoise Barré-Sinoussi</b> for the discovery of HIV.</br></br> They shared the Prize with Harald zur Hausen, who discovered that human papilloma viruses can cause cervical cancer. Montagnier said he was "surprised" that Robert Gallo was not also recognized by the Nobel Committee: "It was important to prove that HIV was the cause of AIDS, and Gallo had a very important role in that. I'm very sorry for Robert Gallo."According to Maria Masucci, a member of the Nobel Assembly, "there was no doubt as to who made the fundamental discoveries."</br></br>
+
+Montagnier was the co-founder of the World Foundation for AIDS Research and Prevention and co-directed the Program for International Viral Collaboration. He was the founder and a former president of the Houston-based World Foundation for Medical Research and Prevention. </br></br>He received more than 20 major awards, including the National Order of Merit (Commander, 1986) and the Légion d'honneur (Knight: 1984; Officer: 1990; Commander: 1993; Grand Officer: 2009), He was a recipient of the Lasker Award and the Scheele Award (1986), the Louis-Jeantet Prize for medicine (1986), the Gairdner Award (1987), the Golden Plate Award of the American Academy of Achievement (1987),[28] King Faisal International Prize (1993) (known as the Arab Nobel Prize), and the Prince of Asturias Award (2000). He was also a member of the Académie Nationale de Médecine.</br></br>
+
+Montagnier was awarded the honorary Doctor of Humane Letters (L.H.D.) from Whittier College in 2010.</p></div>
+  </div>
+  <!-- END IMAGE-DIV + TRIBUTE INFO -->
+      
+  <!-- START MORE ABOUT -->
+<footer id="more-about">
+  <p id="more-about-font">Learn more<a href="https://en.wikipedia.org/wiki/Luc_Montagnier" id="about" target="_blank"> about Pr. Luc Montagnier here</a></p>
+  <footer>
+  <!-- END MORE ABOUT -->
+  
+    </div>
+  <!-- ENDING BODY -->
+    
+  </html>
+  <!-- ENDING MAIN ELEMENT -->
+   
