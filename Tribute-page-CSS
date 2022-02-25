@@ -1,0 +1,131 @@
+/* import merriweather sans font */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+
+
+/* Configure main layout */
+#main {
+  background: linear-gradient(70deg, #27C7B2, #E777EF);
+ 
+  
+}
+/* Configure body layout */
+#body {
+  display: grid;
+  grid-template-rows: 30% 60% 10%;
+}
+@media (min-width: 600px) {
+  #body {
+  display: grid;
+  grid-template-rows: 200px 800px 50px;
+}
+}
+
+/* title design */
+#title {
+ 
+}
+#title-1 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 90px;
+}
+#title-2 {
+  font-size: 23px;
+  text-align: center;
+  margin-top: -30px;
+}
+/* image + tribute info grid */
+#row-2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+    place-items: center;
+}
+
+/* image column config */
+#img-div {
+  text-align: center;
+}
+
+/* image */
+#image {
+  display: block;
+  width: 400px;
+  max-width: 50vw;
+  border-radius: 10%;
+  max-width: 100%;
+  height: auto;
+}
+
+/* img-caption */
+#img-caption {
+  font-family: helvetica;
+  font-size: 20px;
+}
+
+/* tribute-info */
+#tribute-info {
+  display: grid;
+  text-align: left;
+}
+#tribute-font {
+  font-size: 14px;
+  font-family: Merriweather Sans;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* more-about */
+#more-about {
+  display: grid;
+  text-align: left;
+}
+#more-about-font {
+  text-align: center;
+}
+#about:hover {
+  color: #1DEFA2;
+  transition: 1s;
+}
+/* NAVBAR MOBILE */
+#navbar {
+  background: #EFA21D;
+  width: 50%;
+  height: 50px;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 10px;
+  position: fixed;
+}
+
+/* NAVBAR DESKTOP */
+@media (min-width: 720px) {
+#navbar {
+  background: #EFA21D;
+  width: 30%;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 20px;
+  position: fixed;
+  
+}
+}
+#nav-text {
+  font-size: 15px;
+  margin-top: 8px;
+}
+@media (min-width: 720px) {
+#nav-text {
+  font-size: 20px;
+  margin-top: 8px;
+}
+}
+.nav-link:hover {
+  color: #FFFFFF;
+  transition: 0.8s;
+}
+.nav-link:link {
+  text-decoration: none;
+}
